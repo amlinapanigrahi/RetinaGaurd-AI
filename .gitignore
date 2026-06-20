@@ -1,15 +1,18 @@
-# Ignore the virtual environment
-venv/
-.venv/
-env/
-
-# Ignore python cache files
+# Python
 __pycache__/
 *.pyc
 
-# Ignore your data folder (medical images are too large for GitHub)
-data/
+# Virtual Environment
+myvenv/
+venv/
 
-# Ignore OS-specific files
-.DS_Store
-Thumbs.db
+# Jupyter
+.ipynb_checkpoints/
+
+# Model files
+*.pth
+*.pt
+*.pkl
+
+# Dataset
+data/
